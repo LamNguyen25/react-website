@@ -20,3 +20,7 @@
     - My theme for this web application is autumn, so the colors I pick are mainly light orange and yellow. I saw some autumn leaves faaling on the street near my house, so I chose autumn as my design inspiration. It is the time that those endless shades of green shift softly into a palette of warm colours. I hope this design will make users feel peaceful and cozy even though we are facing with the pandemic. Specifically, It will help Alice feel relaxed to get ready for the meeting.\
     - I made a card for each search result so that user does not feel overwhelmed by many search results at the same time. \
     - I reformatted date in Calendar data and Slack data to make them easier for users to read
+
+**D. Demo**:\
+
+![](demo.gif)
