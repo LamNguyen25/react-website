@@ -40,12 +40,12 @@
         "id": "22345",
         "channel": "customer-chatter",
         "author": "alice",
-        "message": "Did any of you meet with Acme folks last week?",
-        "timestamp": "2019-02-26 12:00:00",
+        "message": "Did any of you meet with NET folks last week?",
+        "timestamp": "2019-01-20 12:00:00",
         "matching_terms": [
           "alice",
           "customer-chatter",
-          "acme"
+          "net"
         ]
       },
       {
@@ -64,12 +64,12 @@
         "id": "22347",
         "channel": "customer-chatter",
         "author": "dave",
-        "message": "I think John from Acme was in that meeting too",
+        "message": "I think John from NET was in that meeting too",
         "timestamp": "2019-02-26 12:00:02",
         "matching_terms": [
           "dave",
           "john",
-          "acme"
+          "net"
         ]
       }
     ]

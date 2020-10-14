@@ -17,13 +17,13 @@
       },
       {
         "id": "34567",
-        "path": "/work/customers/acme/invoice.docx",
+        "path": "/work/customers/net/invoice.docx",
         "title": "\"ACME Corp: Invoice\"",
         "shared_with": [
-          "acme-accounts@mycompany.com"
+          "net-accounts@mycompany.com"
         ],
         "matching_terms": [
-          "acme",
+          "net",
           "invoice"
         ],
         "created": "2019-02-01"
@@ -32,6 +32,9 @@
         "id": "56789",
         "path": "/purchases/2016/fridge.pdf",
         "title": "\"Best Buy: Invoice\"",
+        "shared_with": [
+          
+        ],
         "matching_terms": [
           "invoice"
         ],
@@ -39,30 +42,30 @@
       },
       {
         "id": "3456789",
-        "path": "/work/customers/acme/proposal.docx",
-        "title": "\"ACME Corp: Draft MoU\"",
+        "path": "/work/customers/net/proposal.docx",
+        "title": "\"NET Corp: Draft MoU\"",
         "shared_with": [
-          "acme-accounts@mycompany.com"
+          "net-accounts@mycompany.com"
         ],
         "matching_terms": [
-          "acme",
+          "net",
           "proposal",
           "mou"
         ],
-        "created": "2019-01-19"
+        "created": "2019-02-19"
       },
       {
         "id": "3556789",
         "path": "/work/customers/acme/meeting-notes.docx",
         "title": "\"ACME Corp: Meeting Notes\"",
         "shared_with": [
-          "acme-accounts@mycompany.com"
+          "net-accounts@mycompany.com"
         ],
         "matching_terms": [
-          "acme",
+          "net",
           "meeting notes"
         ],
-        "created": "2019-02-04"
+        "created": "2019-05-04"
       }
     ]
   }

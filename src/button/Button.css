@@ -55,7 +55,8 @@
 .btn--large:hover, .btn--medium:hover, .btn--mobile:hover {
     transition: all 0.3s ease-out;
     background-color: #ffffff;
-    color: #331515;
+    color: #e44949;
+    
 }
 
 .btn--wide:hover {
@@ -64,14 +65,9 @@
     transition: all 0.2s ease-out;
 }
 
-.purple {
-    background-color: #5d54a4;
-    color: #ffffff;
-    border: none;
-}
-
-.dark-moderate-cyan {
-    background-color: #41aea9;
+.autum-leave {
+    background-color: #e44949;
+    box-shadow: 4px 4px 10px #C94040, -4px -4px 10px #ff5252;
     color: #ffffff;
     border: none;
 }
@@ -84,14 +80,15 @@
 
 
 .primary {
-    background-color: #132743;
+    background-color: #e44949;
+    box-shadow: 4px 4px 10px #C94040, -4px -4px 10px #ff5252;
     color: #ffffff;
     border: none;
 }
 
 .primary:hover {
     background-color: #ffffff;
-    color: #132743;
+    color: #e44949;
     border: none;
 }
 

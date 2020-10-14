@@ -1,7 +1,7 @@
 
 .home_container {
     color: #000000;
-    background-color: #ffffff;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     padding: 160px 0;
     width: 100%;
 }
@@ -39,7 +39,8 @@
     justify-content: center;
     align-items: center;
     color: #f00946;
-    font-size: 16px;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 18px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -75,20 +76,40 @@
     margin-left: 12px;
     color: #ffffff;
     background: #e44949;
-    box-shadow: 6px 6px 12px #C94040, -6px -6px 12px #ff5252;
+    box-shadow: 4px 4px 10px #EB886F, -4px -4px 10px #E9795D;
     padding: 15px;
     cursor: pointer;
     border-radius: 10px;
 }
 
+.search-icon:hover {
+    box-shadow: inset 4px 4px 10px #C94040, inset -4px -4px 10px #FF5252
+}
+
 .search-input {
     margin-left: 12px;
     color: #ffffff;
-    background: #e44949;
-    box-shadow: 6px 6px 12px #C94040, -6px -6px 12px #ff5252;
+    background-color: #E76F51;
+    box-shadow: 4px 4px 10px #EB886F, -4px -4px 10px #E9795D;
     padding: 15px;
     cursor: pointer;
     border-radius: 10px;
+    margin-right: 2rem;
+}
+
+.search-input:hover {
+    box-shadow: inset 4px 4px 10px #C94040, inset -4px -4px 10px #FF5252
+}
+
+.search-result-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.search-result-title {
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 960px) {
@@ -100,7 +121,7 @@
 
     .search-box {
         margin-top: 20px;
-        margin-left: 0;
+        margin-left: 30px;
     }
 }
 
@@ -108,5 +129,9 @@
 @media screen and (max-width: 768px) {
     .home__hero-text-wrapper {
       padding-bottom: 65px;
+    }
+    .search-box {
+        margin-top: 20px;
+        margin-left: 30px;
     }
 }

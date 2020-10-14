@@ -5,7 +5,7 @@ import './Button.css';
 const STYLES = ['btn-primary', 'btn-outline'];
 const SIZES = ['btn--medium', 'btn--large', 'btn--mobile', 'btn--wide'];
 
-const COLOR = ['primary', 'purple', 'dark-moderate-cyan', 'soft-orange'];
+const COLOR = ['primary', 'autum-leave', 'soft-orange'];
 
 export const Button = ({
     children,

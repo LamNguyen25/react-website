@@ -1,4 +1,4 @@
-import React, { useState, useEffect }from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 // https://react-icons.github.io/
@@ -43,7 +43,7 @@ function Navbar() {
                     <div className="navbar-container container">
                         <Link to='/' className="navbar-logo" onClick={_closeMenuOnMobile}>
                             <BsSearch className="navbar-icon"/>
-                            Acme-Search
+                            NetSearch
                         </Link>
                         <div className="menu-icon" onClick={_onHandleClick}>
                             {click ? <FaTimes/> : <GiHamburgerMenu/>}
@@ -65,7 +65,7 @@ function Navbar() {
                                         <Button buttonStyle='btn--outline'
                                         onClick={_closeMenuOnMobile}
                                         >
-                                            Search
+                                            Login
                                         </Button>
                                     </Link>
                                 ): (
@@ -74,7 +74,7 @@ function Navbar() {
                                             buttonSize='btn-mobile'
                                             onClick={_closeMenuOnMobile}
                                         >
-                                            Search
+                                            Login
                                         </Button>
                                     </Link>
                                 )}

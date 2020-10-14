@@ -1,0 +1,35 @@
+.search-result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.search-result-title {
+    padding-top: 20px;
+}
+
+.res-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-style {
+    background-color: #e44949;
+    box-shadow: 6px 6px 12px #f6d365, -6px -6px 12px #fda085;
+    /* border-radius: 10px; */
+}
+
+.card-style:hover {
+    box-shadow: inset 6px 6px 12px #f6d365, inset -6px -6px 12px #fda085
+}
+
+.pin-header {
+    color: #e44949;
+    font-family: 'Commissioner', sans-serif;
+}

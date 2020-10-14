@@ -1,23 +1,23 @@
 {
     "tweet": [
       {
-        "user": "@acmecorp",
-        "message": "We're hiring in Boston!",
-        "timestamp": "2019-02-29",
+        "user": "@netcorp",
+        "message": "We're hiring in LA!",
+        "timestamp": "2019-02-23",
         "matching_terms": [
-          "acme",
+          "net",
           "hiring",
-          "boston"
+          "la"
         ]
       },
       {
-        "user": "@acmecorp",
-        "message": "We're no longer hiring in Timbuktu",
-        "timestamp": "2019-02-27",
+        "user": "@netcorp",
+        "message": "We're no longer hiring in London",
+        "timestamp": "2019-02-21",
         "matching_terms": [
-          "acme",
+          "net",
           "hiring",
-          "timbuktu"
+          "london"
         ]
       }
     ]
