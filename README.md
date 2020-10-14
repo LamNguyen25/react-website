@@ -21,6 +21,6 @@
     - I made a card for each search result so that user does not feel overwhelmed by many search results at the same time. \
     - I reformatted date in Calendar data and Slack data to make them easier for users to read
 
-**D. Demo**:\
+**D. Demo**:
 
 ![](demo.gif)
