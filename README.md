@@ -4,7 +4,7 @@
     3. I use React to write this web application
 
 **A. How to run my project**:\
-    1/ Open the 'net-search' folder using VSCode\
+    1/ Clone the project and Open the 'net-search' folder using VSCode\
     2/ Press "Command+Shift+P" to open the terminal on VSCode or click on 'Terminal' on the bottom bar\
     3/ On the terminal type: npm install (It will take some time to run. Please be patient!! this will install all the dependencies)\
     4/ On the terminal type: npm start   (This will start the project on the local host)
