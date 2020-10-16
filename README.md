@@ -23,4 +23,4 @@
 
 **D. Demo**:
 
-![](demo.mov)
+![](demo.gif)
