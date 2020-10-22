@@ -1,0 +1,137 @@
+
+.home_container {
+    color: #000000;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    padding: 160px 0;
+    width: 100%;
+}
+
+.home-row {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 40px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.home-text-wrapper {
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.top-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f00946;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.home-img-wrapper {
+    max-width: 555px;
+}
+
+.home-img {
+    max-width: 95%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    padding-right: 0;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.search-box{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-icon {
+    margin-left: 12px;
+    color: #ffffff;
+    background: #e44949;
+    box-shadow: 4px 4px 10px #EB886F, -4px -4px 10px #E9795D;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.search-icon:hover {
+    box-shadow: inset 4px 4px 10px #C94040, inset -4px -4px 10px #FF5252
+}
+
+.search-input {
+    margin-left: 12px;
+    color: #ffffff;
+    background-color: #E76F51;
+    box-shadow: 4px 4px 10px #EB886F, -4px -4px 10px #E9795D;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+
+.search-input:hover {
+    box-shadow: inset 4px 4px 10px #C94040, inset -4px -4px 10px #FF5252
+}
+
+.search-result-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.search-result-title {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+
+    .search-box {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .home__hero-text-wrapper {
+      padding-bottom: 65px;
+    }
+    .search-box {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+}

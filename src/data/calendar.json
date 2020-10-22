@@ -1,0 +1,30 @@
+{
+    "calendar": [
+      {
+        "id": "12345",
+        "title": "Informational Meeting",
+        "invitees": "dave, john, bob, carol",
+        "matching_terms": [
+          "dave",
+          "john",
+          "bob",
+          "carol",
+          "meeting"
+        ],
+        "date": "2019-15-10 11:00:00"
+      },
+      {
+        "id": "12345",
+        "title": "Net Final Delivery Meeting",
+        "invitees": "dave, john, bob, alice",
+        "matching_terms": [
+          "dave",
+          "john",
+          "bob",
+          "alice",
+          "net"
+        ],
+        "date": "2020-02-06 11:00:00"
+      }
+    ]
+  }

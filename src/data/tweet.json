@@ -1,0 +1,24 @@
+{
+    "tweet": [
+      {
+        "user": "@netcorp",
+        "message": "We're hiring in LA!",
+        "timestamp": "2019-02-23",
+        "matching_terms": [
+          "net",
+          "hiring",
+          "la"
+        ]
+      },
+      {
+        "user": "@netcorp",
+        "message": "We're no longer hiring in London",
+        "timestamp": "2019-02-21",
+        "matching_terms": [
+          "net",
+          "hiring",
+          "london"
+        ]
+      }
+    ]
+  }
